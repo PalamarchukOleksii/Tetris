@@ -8,6 +8,6 @@ sources/game.cpp
 sources/game.h
 )
 
-add_executable(MyTetris sources/main.cpp)
+add_executable(Tetris sources/main.cpp resources/tetris.rc)
 
-target_link_libraries(MyTetris PUBLIC MyLib)
+target_link_libraries(Tetris PUBLIC MyLib)
